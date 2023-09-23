@@ -1,0 +1,393 @@
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+text-decoration: none;
+font-family: 'Croissant One', cursive;
+font-family: 'Poppins', sans-serif;
+}
+
+:root {
+--color_tex-primario: #BB9DAD; 
+--color_tex-secundario: #0C0B0B; 
+--color_tex-terciario: #D8C7D0; 
+--main_color-primario: #522B5B; 
+--main_color-secuandrio: #ffffff; 
+--background-color: #ffffffff; 
+--lowtext_font_size: 16px; 
+--text_size-titulo: 40px; 
+--text_titulo-card: 24px; 
+--text_titulo-card2: 20px; 
+--text_paragraph: 16px; 
+--box_shadow-primario: 0 6px -20px (#0C0B0B); 
+}
+
+header {
+width: 100%;
+height: 100px;
+position: fixed;
+z-index: 100;
+}
+
+.conteiner__header {
+max-width: 1200px;
+height: 100%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+text-align: center;
+padding: 0 20px;
+}
+
+.logo {
+display: flex;
+text-align: center;
+position: relative;
+z-index: 1;
+}
+
+.logo img {
+width: 150px;
+position: relative;
+margin-top: 40px;
+border-radius: 50%;
+
+}
+
+.menu {
+display: flex;
+align-items: center;
+
+}
+
+.menu nav {
+margin: 0 20px;
+}
+
+.menu nav ul {
+display: flex;
+
+}
+
+.menu nav ul li {
+list-style: none;
+margin: 20px 16px;
+
+}
+
+.menu nav ul li a {
+color: var(--color_tex-secundario);
+font-size: var(--lowtext_font_size);
+position: relative;
+text-decoration: none;
+}
+
+.menu nav ul li a:hover {
+color: var(--main_color-primario);
+}
+
+
+/* VER EL BOTON */
+
+
+/* .menu .redesSociales {
+margin: 0 4px;
+text-decoration: none;
+}
+
+.menu .redesSociales a {
+margin: 0 4px;
+} */
+
+.menu i {
+width: 20px;
+
+}
+
+/* Portada de Inicio */
+
+.conteiner__portada {
+padding-top: 100px;
+padding-bottom: 100px;
+background-color: var(--color_tex-primario);
+
+}
+
+.portada {
+max-width: 1200px;
+margin: auto;
+margin-top: 100px;
+display: flex;
+align-items: center;
+padding: 0 20px;
+}
+
+.tex__portada {
+width: 100%;
+padding-right: 150px;
+}
+
+.tex__portada h1 {
+font-size: 50px;
+
+}
+
+.tex__portada p {
+font-size: var(--text_paragraph);
+margin-top: 40px;
+color: var(--main_color-primario);
+}
+
+.img__portada {
+width: 100%;
+}
+
+.img__portada img {
+width: 550px;
+}
+
+/* GENERA CONFIANZA EN TI MISMA */
+
+.conteiner__card-primario {
+padding-top: 100px;
+}
+
+.card-primario {
+max-width: 1200px;
+margin: auto;
+text-align: center;
+padding: 0 20px;
+}
+
+.text__card-primario {
+max-width: 800px;
+margin: auto;
+}
+
+.text__card-primario p {
+color: var(--main_color-primario);
+letter-spacing: 4px;
+font-size: var(--text_paragraph);
+font-weight: 500;
+}
+
+.text__card-primario h2 {
+color: var(--color_tex-secundario);
+
+}
+
+.container__box-cardPrimario {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 40px;
+}
+
+.box__card-primario {
+max-width: 350px;
+padding: 60px 40px;
+border: 1px solid #e6e6e6;
+border-radius: 20px;
+margin: 14px;
+transition: all 300ms;
+}
+
+.box__card-primario:hover {
+border: 1px solid transparent;
+box-shadow: var(--box_shadow-primario);
+}
+
+.box__card-primario h3 {
+margin-top: 10px;
+font-weight: 500;
+}
+
+/* SOBRE NOSOTROS */
+
+.conteiner__about {
+padding: 100px 0px;
+background-color: var(--color_tex-terciario);
+margin-top: 100px;
+}
+
+.about {
+max-width: 1200px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 20px;
+}
+
+.text__about {
+width: 100%;
+padding-right: 40px;
+}
+
+.text__about h1 {
+color: var(--color_tex-secundario);
+font-weight: 500;
+}
+
+.text__about p {
+color: var(--main_color-primario);
+margin-top: 40px;
+font-size: var(--text_paragraph);
+}
+
+.btn__text {
+display: block;
+width: 150px;
+margin-top: 40px;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+font-weight: 500;
+background-color: var(--main_color-primario);
+color: #ffffff;
+border-radius: 8px;
+border: 2px solid transparent;
+cursor: pointer;
+transition: all 300ms;
+}
+
+.btn__text:hover {
+background-color:transparent ;
+border: 2px solid var(--main_color-primario);
+color: var(--main_color-primario);
+}
+
+/* NUESTROS PRODUCTOS */
+
+.text__productos p {
+font-size: var(--text_paragraph);
+font-weight: 400;
+}
+
+.img__about {
+width: 100%;
+display: flex;
+
+}
+
+.img__about img {
+width: 350px;
+}
+
+.card__productos i {
+margin-top: 20px;
+color: var(--main_color-primario);
+}
+
+/* FORMULARIO */
+
+.conteiner__form {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 1200px;
+margin-top: 40px;
+}
+
+.fommr {
+margin: auto;
+padding: 20px 10px;
+width: 350px;
+}
+
+.fommr .fommr__input {
+width: 300px;
+height: 50px;
+}
+
+button {
+margin: auto;
+}
+
+
+
+
+/* FOOTER */
+
+    
+footer {
+width: 100%;
+padding: 0px 0px;
+background-color: var(--color_tex-terciario);
+}
+
+.container_footer{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 1200px;
+margin: auto;
+margin-top: 100px;
+
+
+}
+
+.box__footer{
+display: flex;
+flex-direction: column;
+padding: 40px;
+}
+
+.box__footer .logo img {
+width: 180px;
+position: relative;
+right: 2px;
+}
+
+.box__footer .terms{
+max-width: 350px;
+color: var(--main_color-primario);
+margin-top: 10px;
+font-weight: 500;
+font-size: 18px;
+}
+
+.box__footer h3 {
+margin-bottom: -1px;
+color: var(--color_tex-secundario);
+
+}
+
+.box__footer a {
+margin-top: 10px;
+color: var(--main_color-primario);  
+text-decoration: none;
+}
+
+.box__footer a:hover {
+opacity: 0.5;
+}
+
+.box__footer a .fa-brands {
+padding-left: 0px;
+width: 19px;
+
+}
+
+
+.box__copyright {
+max-width: 1200px;
+margin: auto;
+text-align: center;
+padding: 0px 40px; 
+
+}
+
+.box__copyright p {
+margin-top: 20px;
+color: var(--main_color-primario); 
+
+}
+
+.box__copyright hr {
+border: none;
+height: 1px;
+background-color: var(--main_color-primario);
+}
