@@ -281,7 +281,7 @@ color: var(--main_color-primario);
 
 /* FORMULARIO */
 
-.conteiner__form {
+.conteiner__form form {
 
 display: flex;
 flex-direction: column;
@@ -291,15 +291,26 @@ max-width: 1200px;
 margin-top: 40px;
 }
 
+.conteiner__form p {
+padding: 10px;
+}
+
 .fommr {
 margin: auto;
 padding: 20px 10px;
 width: 350px;
 }
 
+
+
 .fommr .fommr__input {
 width: 300px;
 height: 50px;
+border-radius: 8px;
+}
+
+.fommr__input textarea {
+border-radius: 8px;
 }
 
 button {
@@ -336,7 +347,7 @@ padding: 40px;
 }
 
 .box__footer .logo img {
-width: 180px;
+width: 150px;
 position: relative;
 right: 2px;
 }
