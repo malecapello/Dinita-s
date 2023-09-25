@@ -418,8 +418,9 @@ background-color: var(--main_color-primario);
     }
 
     .img__portada img {
-       display: flex;
-       flex-direction: column;
+        position: relative;
+        top: 300px;
+       right: 160px;
        width: 200px;
        height: 100px;
     }
@@ -433,8 +434,9 @@ background-color: var(--main_color-primario);
     }
 
     .img__about {
-        display: flex;
-        flex-direction: column;
+        position: relative;
+        top: 300px;
+       right: 160px;
         width: 200px;
         height: 100px;
     }
