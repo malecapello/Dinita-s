@@ -1,0 +1,22 @@
+/* NUESTROS PRODUCTOS */
+    
+.text__productos p {
+    font-size: var(--text_paragraph);
+    font-weight: 400;
+    }
+    
+    .img__about {
+    width: 100%;
+    display: flex;
+    
+    }
+    
+    .img__about img {
+    width: 350px;
+    }
+    
+    .card__productos i {
+    margin-top: 20px;
+    color: var(--main_color-primario);
+    }
+    

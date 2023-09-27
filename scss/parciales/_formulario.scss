@@ -1,0 +1,38 @@
+ /* FORMULARIO */
+    
+ .conteiner__form form {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-top: 40px;
+    }
+    
+    .conteiner__form p {
+    padding: 10px;
+    }
+    
+    .fommr {
+    margin: auto;
+    padding: 20px 10px;
+    width: 350px;
+    }
+    
+    
+    
+    .fommr .fommr__input {
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    }
+    
+    .fommr__input textarea {
+    border-radius: 8px;
+    }
+    
+    button {
+    margin: auto;
+    }
+    

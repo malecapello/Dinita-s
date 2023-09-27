@@ -1,0 +1,42 @@
+    /* Portada de Inicio */
+    
+    .conteiner__portada {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: var(--color_tex-primario);
+        
+        }
+        
+        .portada {
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        }
+        
+        .tex__portada {
+        width: 100%;
+        padding-right: 150px;
+        }
+        
+        .tex__portada h1 {
+        font-size: 50px;
+        
+        }
+        
+        .tex__portada p {
+        font-size: var(--text_paragraph);
+        margin-top: 40px;
+        color: var(--main_color-primario);
+        }
+        
+        .img__portada {
+        width: 100%;
+        }
+        
+        .img__portada img {
+        width: 550px;
+        }
+        

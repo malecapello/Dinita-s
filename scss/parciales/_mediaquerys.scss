@@ -1,0 +1,40 @@
+   /*  MEDIA QUERYS */
+    
+   @media screen and (max-width: 600px) {
+        
+    .menu nav ul li a {
+       display: none;
+    }
+
+   .tex__portada h1 {
+     font-size: 10px;
+   }
+
+   .tex__portada p {
+       font-size: 9px;
+   }
+
+   .img__portada img {
+       position: relative;
+       top: 300px;
+      right: 160px;
+      width: 200px;
+      height: 100px;
+   }
+
+   .text__about h1 {
+      font-size: 10px; 
+   }
+
+   .text__about p {
+       font-size: 12px;
+   }
+
+   .img__about {
+       position: relative;
+       top: 300px;
+      right: 160px;
+       width: 200px;
+       height: 100px;
+   }
+}
